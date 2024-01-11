@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝕰𝖝𝖊𝖈𝖚ⓣ𝖔𝖗</title>
+
+
+
+  <!-- boostrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- boostrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- fa fa class  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- typed library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+    integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+    crossorigin="anonymous"></script>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<!-- aOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+  <!-- ----------------------------------------------------------------------------------------------------- -->
+
+  <link rel="stylesheet" href="image_projects_hover.css">
+  <link rel="stylesheet" href="general div_header.css">
+  <link rel="stylesheet" href="media_query.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="progress_bar.js"></script>
+
+
+ 
+
+
+</head>
+
+<body>
+  <div class="container-fluid">
+
+
+    <div class="row bg-transparent " id="rocket_scroll_up">
+      <div class="col-12 ps-5 d-flex justify-content-end ">
+        <a href="#top">
+          <i class="fa fa-rocket" id="rocket"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- modal login form -->
+    <div class="modal fade" id="login_form" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content bg-info">
+          <div class="modal-header bg-dark text-light mb-3">
+            <h5 class="modal-title" id="staticBackdropLabel">Log In</h5>
+            <button type="button" class="btn-outline-danger" data-bs-dismiss="modal"><i
+                class="fa fa-close"></i></button>
+          </div>
+
+          <form class="my-3 mx-3">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address/Phone No. :</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+
+            <br><br>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+            <div class="d-flex justify-content-end mb-1 ">
+              <button type="submit" class="btn btn-success border-3 border-light px-2 py-1">Submit</button>
+              <button type="submit" class="btn btn-success border-3 border-light px-2 py-1 ms-3">Close</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- modal register form -->
+    <div class="modal fade" id="register_form" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content bg-info">
+          <div class="modal-header bg-dark text-light mb-3">
+            <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+            <button type="button" class="btn-outline-danger" data-bs-dismiss="modal"><i
+                class="fa fa-close"></i></button>
+          </div>
+
+          <form class="my-3 mx-3">
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name. :</label>
+              <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address/Phone No. :</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Re-Enter Password:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+
+            <br><br>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+            <div class="d-flex justify-content-end mb-1 ">
+              <button type="submit" class="btn btn-success border-3 border-light px-2 py-1">Submit</button>
+              <button type="submit" class="btn btn-success border-3 border-light px-2 py-1 ms-3">Close</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- header bar / navbar / progress bar  -->
+    <div class="row sticky-top" id="nav_bar_bg">
+
+      <div class="col-12  d-flex justify-content-end py-2" id="header_bar_top">
+        <button type="button" class="btn btn-outline-info border-3 border-3 me-3 " data-bs-toggle="modal"
+          data-bs-target="#login_form">Log In</button>
+        <button type="button" class="btn btn-outline-info border-3 border-3 me-4" data-bs-toggle="modal"
+          data-bs-target="#register_form">Register</button>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light  bg-transparent mx-lg-4" id="nav_bar">
+          <div class="container-fluid">
+            <span class="navbar-brand" id="brand_name">
+              𝕰𝕩𝐞𝐜𝐮<span style="color: red ;font-size: 35px;">ⓣ</span>𝐨𝐫</span>
+
+            <span class="navbar-brand" id="brand_logo">
+              <img src="logo.png" alt="logo" style="height: 6rem; width: 6.5rem;">
+            </span>
+
+
+            <button class="navbar-toggler first-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+              id="hamburger">
+
+              <span class="fa fa-bars" style="color: antiquewhite;font-size: 30px;"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-lg-5" id="navbarNav">
+              <ul class="navbar-nav">
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#plans">Plans</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+      <div class="progress-container   ps-0 pe-1">
+        <div class="progress-bar" id="progressBar" onscroll="progressBarScroll()"></div>
+      </div>
+    </div>
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ****************************************************************************************************************************** -->
+
+
+    <!-- bg content part  -->
+    <div class="row " id="div_bg">
+      <div class="col-lg-7 mx-0">
+
+
+
+        <!-- social media icons -->
+        <div class="row" id="social_media" >
+
+          <div class="col-5 pt-5 d-flex justify-content-center" data-aos="fade-up">
+            <div class="btn rounded-circle btn-outline-danger border-3" id="social_icons">
+              <a href="#">
+                <i class="fa fa-facebook-f" style="font-size:24px;color: white;"></i>
+              </a>
+            </div>
+
+            <div class="btn rounded-circle btn-outline-danger border-3" id="social_icons">
+              <a href="#">
+                <i class="fa fa-twitter" style="font-size:24px;color: white;"></i>
+              </a>
+            </div>
+
+            <div class="btn rounded-circle btn-outline-danger border-3" id="social_icons">
+              <a href="#">
+                <i class="fa fa-pinterest" style="font-size:24px;color: white;"></i>
+              </a>
+            </div>
+
+            <div class="btn rounded-circle btn-outline-danger border-3" id="social_icons">
+              <a href="#">
+                <i class="fa fa-instagram" style="font-size:24px;color: white;"></i>
+              </a>
+            </div>
+
+            <div class="btn rounded-circle btn-outline-danger border-3" id="social_icons">
+              <a href="#">
+                <i class="fa fa-linkedin" style="font-size:24px;color: white;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- name and details -->
+
+        <div class="col-12" id="hi" data-aos="zoom-in-right">Hi!</div>
+
+
+        <div class="col-12">
+          <span class="name" data-aos="zoom-in-right"></span>
+        </div>
+
+
+        <div class="col-12">
+          <span class="details" data-aos="zoom-in-right"></span>
+        </div>
+
+
+
+        <!-- my works btn -->
+
+        <div class="row my-5" >
+          <div class="col-1"></div>
+          <button type="button" class="btn btn-outline-danger w-auto" id="btn_works" data-aos="zoom-in">
+            <a class="nav-link text-info" href="#projects">My Works & Projects</a>
+
+          </button>
+        </div>
+
+      </div>
+
+
+
+      <div class="col-lg-5 mx-0">
+        <img src="profile _pics_about/own.JPG" alt="img" class="img-fluid mx-auto d-block" id="image_pic">
+      </div>
+    </div>
+    <!-- content img part end -->
+
+
+
+
+
+
+    <!-- below content div bg -->
+    <div class="row">
+      <div class="col-12" id="below_div"></div>
+    </div>
+
+
+
+    <!-- services -->
+    <div id="services"></div>
+    <div class="row py-5" id="color_bg_div_1" >
+
+      <div class="col-12 text-center mt-5" >
+        <span class="div_header_txt_1 text-danger" data-aos="fade-down">SERVICES</span>
+      </div>
+      <div class="col-12 text-center mt-4">
+        <span class="div_header_txt_2 text-white" data-aos="fade-up">SERVICES</span>
+      </div>
+      <div class="col-12 text-center mt-3 div_header_txt_3">
+        <span class="text-white " data-aos="fade-down">The <span class="text-danger">SERVICES</span> we provide are 100% trusted and of high
+          quality.</span>
+      </div>
+      <div class="col-12 my-4 text-center" style="line-height: 3px;">
+        <span class="text-danger"> _______________________________</span><br>
+        <span class="text-danger"> _______________________________</span>
+      </div>
+
+
+      <!-- card services -->
+
+      <div class="row my-5 pb-4" id="card_services">
+        <div class="col-lg-4 col-md-6 text-white d-flex justify-content-center " data-aos="zoom-in-right">
+
+          <div class="card bg-dark my-3" style="width: 18rem; height: 30rem;" id="card_services_content">
+            <i class="fa fa-codepen my-4 mx-auto" aria-hidden="true" style="font-size: 90px;" id="fa_icons"></i>
+            <div class="card-body">
+              <h5 class="card-title">Web Designer</h5>
+              <p class="card-text my-4" style="font-size: 12px;">A web designer is a professional who specializes in
+                creating visually appealing and functional websites. They possess a combination of creative and
+                technical skills to design and develop websites that meet the needs and preferences of clients or target
+                audiences. Web designers typically work closely with clients or project stakeholders to understand their
+                requirements and objectives. They then use various tools and technologies such as graphic design
+                software, HTML, CSS, and JavaScript to create layouts, select color schemes, design user interfaces, and
+                incorporate interactive elements.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 text-white d-flex justify-content-center " data-aos="zoom-in-down">
+
+          <div class="card bg-dark my-3" style="width: 18rem; height: 30rem;" id="card_services_content">
+            <i class="fa fa-github  my-4 mx-auto" aria-hidden="true" style="font-size: 90px;" id="fa_icons"></i>
+            <div class="card-body">
+              <h5 class="card-title">Web Developer</h5>
+              <p class="card-text my-4" style="font-size: 12px;">A web developer is a professional who specializes in
+                creating and maintaining websites and web applications. They are skilled in various programming
+                languages and frameworks used for web development, such as HTML, CSS, JavaScript, and popular libraries
+                and frameworks like React, Angular, or Django.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 text-white d-flex justify-content-center " data-aos="zoom-in-left">
+
+          <div class="card bg-dark my-3" style="width: 18rem; height: 30rem;" id="card_services_content">
+            <i class="fa fa-file-excel-o  my-4 mx-auto" aria-hidden="true" style="font-size: 90px;" id="fa_icons"></i>
+            <div class="card-body">
+              <h5 class="card-title">Data Entry Personnel</h5>
+              <p class="card-text my-4" style="font-size: 12px;">A data entry personnel, also known as a data entry
+                operator or clerk, is an individual responsible for entering and maintaining data into computer systems
+                or databases. Their primary task is to accurately input large volumes of information, such as text,
+                numbers, or other data, into the designated software or database.l</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 text-white d-flex justify-content-center " data-aos="zoom-in-right">
+
+          <div class="card bg-dark my-3" style="width: 18rem; height: 30rem;" id="card_services_content">
+            <i class="fa fa-microchip  my-4 mx-auto" aria-hidden="true" style="font-size: 90px;" id="fa_icons"></i>
+            <div class="card-body">
+              <h5 class="card-title">Hardware & Networking</h5>
+              <p class="card-text my-4" style="font-size: 12px;">A web designer is a professional who specializes in
+                creating visually appealing and functional websites. They possess a combination of creative and
+                technical skills to design and develop websites that meet the needs and preferences of clients or target
+                audiences. Web designers typically work closely with clients or project stakeholders to understand their
+                requirements and objectives. They then use various tools and technologies such as graphic design
+                software, HTML, CSS, and JavaScript to create layouts, select color schemes, design user interfaces, and
+                incorporate interactive elements.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 text-white d-flex justify-content-center " data-aos="zoom-in-up">
+
+          <div class="card bg-dark my-3" style="width: 18rem; height: 30rem;" id="card_services_content">
+            <i class="fa fa-user  my-4 mx-auto" aria-hidden="true" style="font-size: 90px;" id="fa_icons"></i>
+            <div class="card-body">
+              <h5 class="card-title">Freelancer</h5>
+              <p class="card-text my-4" style="font-size: 12px;">A web developer is a professional who specializes in
+                creating and maintaining websites and web applications. They are skilled in various programming
+                languages and frameworks used for web development, such as HTML, CSS, JavaScript, and popular libraries
+                and frameworks like React, Angular, or Django.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-5 text-white d-flex justify-content-center " data-aos="zoom-in-left">
+
+          <div class="card bg-dark my-3" style="width: 18rem; height: 30rem;" id="card_services_content">
+            <i class="fa fa-desktop  my-4 mx-auto" aria-hidden="true" style="font-size: 90px;" id="fa_icons"></i>
+            <div class="card-body">
+              <h5 class="card-title">Software Support</h5>
+              <p class="card-text my-4" style="font-size: 12px;">A data entry personnel, also known as a data entry
+                operator or clerk, is an individual responsible for entering and maintaining data into computer systems
+                or databases. Their primary task is to accurately input large volumes of information, such as text,
+                numbers, or other data, into the designated software or database.l</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- services end -->
+
+
+
+
+    <!-- about  -->
+    <div id="about"></div>
+    <div class="row" id="color_bg_div_2">
+      <div class="col-12 text-center mt-5">
+        <span class="div_header_txt_2 text-white"  data-aos="fade-down">ABOUT US</span>
+      </div>
+      <div class="col-12 text-center mt-3 div_header_txt_3">
+        <span class="text-white "  data-aos="fade-up">We are a small team consisting of <span class="text-danger">8 members</span> who all
+          are tollally eperienced in their fields</span>
+      </div>
+      <div class="col-12  text-center" style="line-height: 3px;">
+        <span class="text-danger"> _______________________________</span><br>
+        <span class="text-danger"> _______________________________</span>
+      </div>
+
+
+      <!-- div card content -->
+      <div class="row" id="content_row_about_cards">
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center" data-aos="zoom-in-right">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/own.JPG" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Utsab Sarkar</h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Web
+                  Designer <br>Hardware & Networking <br>Software Support</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span>
+                  B.Com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center" data-aos="zoom-in-down">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/saptarshi.jpg" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Saptarshi Banerjee</h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Web
+                  Developer</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span>
+                  B.Tech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center" data-aos="zoom-in-up">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/rohan.jpg" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Rohon Brahmachari</h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Web
+                  Developer</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span>
+                  B.Tech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center" data-aos="zoom-in-left">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/hriju.jpg" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Hriju Das </h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Web
+                  Designer</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span>
+                  B.Tech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center" data-aos="zoom-in-right">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/shalini.jpg" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Shalini Pal</h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Data
+                  Entry Personnel</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span> MA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center" data-aos="zoom-in-up">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/priyo.jpeg" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Priyodarshan Ghosh</h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Web
+                  Designer</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span>
+                  B.Com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center" data-aos="zoom-in-down">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/ankit.jpeg" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Ankit dey</h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Web
+                  Designer</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span>
+                  B.Com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 my-5 text-white d-flex justify-content-center " data-aos="zoom-in-left">
+          <div class="card bg-dark my-0" style="width: 18rem; height: 25rem;" id="card_about_content">
+            <img src="profile _pics_about/subhomoy.jpg" class="img-fluid my-4 mx-auto d-block rounded-circle">
+            <hr id="about_img_txt_separator" class="mx-4">
+            <div class="card-body">
+              <h5 class="card-title text-danger text-center">Subhomoy Bhowmik</h5>
+              <div class="my-5">
+                <span class=" text-info"> <span class="text-danger card_about_header">Designation &nbsp;: </span> Data
+                  Entry Personnel</span>
+                <br>
+                <span class=" text-info"> <span class="text-danger card_about_header">Qualification : </span>
+                  B.Com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <!-- about end -->
+
+
+
+    <!-- skills start -->
+    <div id="skills" class=""></div>
+
+    <div class="row pt-5" id="color_bg_div_1">
+      <div class="col-12 text-center mt-4" data-aos="zoom-in-down">
+        <span class="div_header_txt_2 text-white" >SKILLS</span>
+      </div>
+      <div class="col-12 text-center mt-3 div_header_txt_3" data-aos="zoom-in-up">
+        <span class="text-white ">We are a small team where we all own <span class="text-danger">excellent skills, vast
+            knowledge multi-year experience</span> in our fields</span>
+      </div>
+      <div class="col-12 text-center mb-4" style="line-height: 3px;">
+        <span class="text-danger"> _______________________________</span><br>
+        <span class="text-danger"> _______________________________</span>
+      </div>
+
+
+
+
+
+
+      <div class="col-lg-3  ps-5 mt-5 mb-5" data-aos="fade-right">
+        <span class="col-12">
+          <p class="text-danger text-uppercase" id="txt_1_skills">We are expert on</p>
+        </span>
+
+        <span class="col-12 py-3">
+          <p class="text-white" id="txt_2_skills">Let's Work <br> Together</p>
+        </span>
+
+        <span class="col-12">
+          <p class="text-white " id="txt_3_skills">We as a team have an excellent bonding understanding within us. We
+            are much caple of designing and developing <span class="text-danger">user friendly,dynamic and modern
+              websites</span> at a very pocket-friendly price. Our team also provides with <span
+              class="text-danger">Hardware & Networking Support, Software Support </span> .</p>
+        </span>
+      </div>
+
+      <div class="col-lg-1"></div>
+
+      <div class="col-lg-8  mt-5 ">
+
+        <div class="row">
+
+          <div class="col-lg-4 py-2" data-aos="zoom-out-right" data-aos-duration="1500">
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class="collapsed_screen_progress_bar">
+              <p class=" text-white skill_name">Web Designing</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 80%;height: 100%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                  id="web_design">80%</div>
+              </div>
+            </span>
+
+
+
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class=" expanded_screen_progress_bar">
+              <p class=" text-white skill_name">HTML</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 98%;height: 100%;" id="html">98%</div>
+              </div>
+            </span>
+
+
+
+
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class=" expanded_screen_progress_bar">
+              <p class=" text-white skill_name">CSS</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 90%;height: 100%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" id="css">90%
+                </div>
+              </div>
+            </span>
+
+
+
+
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class=" expanded_screen_progress_bar">
+              <p class=" text-white skill_name">JavaScript</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 80%; height: 100%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" id="js">80%
+                </div>
+              </div>
+            </span>
+
+
+
+
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class=" expanded_screen_progress_bar">
+              <p class=" text-white skill_name">jQuery</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 70%;height: 100%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                  id="j_query">70%</div>
+              </div>
+            </span>
+
+
+
+          </div>
+
+
+
+
+          <div class="col-lg-4 py-2 " data-aos="zoom-out-right" data-aos-duration="3000">
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class="collapsed_screen_progress_bar">
+              <p class=" text-white skill_name">Web Development</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 80%;height: 100%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                  id="web_development">80%</div>
+              </div>
+            </span>
+
+
+
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class=" expanded_screen_progress_bar">
+              <p class=" text-white skill_name">MySQL</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 95%;height: 100%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" id="mysql">
+                  95%</div>
+              </div>
+            </span>
+
+
+
+
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class=" expanded_screen_progress_bar">
+              <p class=" text-white skill_name">Php</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 90%;height: 100%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" id="php">
+                  90%</div>
+              </div>
+            </span>
+
+
+
+
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;" class=" expanded_screen_progress_bar">
+              <p class=" text-white skill_name">Laravel</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 75%;height: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                  id="laravel">75%</div>
+              </div>
+            </span>
+
+
+
+
+          </div>
+
+
+
+
+          <div class="col-lg-4 py-2" data-aos="zoom-out-right" data-aos-duration="3000" data-aos-delay="1000">
+            <span style="line-height: 5px;margin-bottom: 1.5rem !important;">
+              <p class=" text-white skill_name">Hardware & Networking</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                  style="width: 75%;height: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                  id="hardware">75%</div>
+              </div>
+            </span>
+            <br>
+
+
+
+            <span class="" style="line-height: 5px;">
+              <span style="line-height: 5px;margin-bottom: 1.5rem !important;">
+                <p class=" text-white skill_name">Data Entry</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                    style="width: 90%;height: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                    id="data_entry">90%</div>
+                </div>
+              </span>
+              <br>
+
+
+
+              <span class="" style="line-height: 5px;">
+                <span style="line-height: 5px;margin-bottom: 1.5rem !important;">
+                  <p class=" text-white skill_name">Software</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger mb" role="progressbar"
+                      style="width: 85%;height: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                      id="software">85%</div>
+                  </div>
+                </span>
+
+
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- skills end -->
+
+
+
+
+
+
+    <!-- projects start -->
+
+    <div id="projects"></div>
+
+    <div class="row" id="project_bg">
+      <div class="col-12 text-center mt-5">
+        <span class="div_header_txt_2 text-white">PROJECTS</span>
+      </div>
+      <div class="col-12 text-center mt-3 div_header_txt_3">
+        <span class="text-white ">Here are a small set of examples of our <span class="text-danger">demo
+            projects</span></span>
+      </div>
+      <div class="col-12  text-center" style="line-height: 3px;">
+        <span class="text-danger"> _______________________________</span><br>
+        <span class="text-danger"> _______________________________</span>
+      </div>
+
+
+      <div class="row mt-5 pt-5" >
+        <div class="col-lg-3 d-flex justify-content-center mb-4" data-aos="zoom-in-right">
+          <div id="image_background_projects_1">
+            <div class="inner_div_projects_hover_1" id="on_hover_display_big_1"> DEMO <br>Tours And Travels <br>Templete
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 d-flex justify-content-center mb-4">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center mb-4" data-aos="zoom-in-down">
+              <div id="image_background_projects_2">
+                <div class="inner_div_projects_hover_2" id="on_hover_display_1">DEMO <br>Shopping Site<br>Templete</div>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center" data-aos="zoom-in-up">
+              <div id="image_background_projects_3">
+                <div class="inner_div_projects_hover_2" id="on_hover_display_2">DEMO <br>Education Site<br>Templete
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 d-flex justify-content-center mb-4">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center mb-4" data-aos="zoom-in-down">
+              <div id="image_background_projects_4">
+                <div class="inner_div_projects_hover_2" id="on_hover_display_3">DEMO <br>Gaming Site<br>Templete</div>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center" data-aos="zoom-in-up">
+              <div id="image_background_projects_5">
+                <div class="inner_div_projects_hover_2" id="on_hover_display_4">DEMO <br>Restaurent<br>Templete</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 d-flex justify-content-center mb-5" data-aos="zoom-in-left">
+          <div id="image_background_projects_6">
+            <div class="inner_div_projects_hover_1" id="on_hover_display_big_2"> DEMO <br>E-Commerce Site<br>Templete
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+    <!-- projects end -->
+
+
+
+    <!-- projects_exxperience_clients -->
+    <div class="row bg-dark  d-flex justify-content-center" id="experience_clients_projects_bg">
+
+
+      <div class="col-lg-3 col-md-6 my-5 ">
+        <div class="row">
+
+          <div class="project_exp_client_bg" data-aos="zoom-in-right">
+            <div class="col-12 d-flex justify-content-center  "><i class="fa fa-group text-white"
+                style="font-size: 60px;"></i></div>
+            <div class="col-12 d-flex justify-content-center   text-danger" style="font-size: 30px;font-weight: bold;">
+              Clients</div>
+            <div class="col-12 d-flex justify-content-center   text-white" style="font-size: 20px; font-weight: bold;"
+              id="client_count">0</div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 my-5 ">
+        <div class="row">
+
+          <div class="project_exp_client_bg" data-aos="zoom-in-right" data-aos-delay="500">
+            <div class="col-12 d-flex justify-content-center  "><i class="fa fa-codepen text-white"
+                style="font-size: 60px;"></i></div>
+            <div class="col-12 d-flex justify-content-center   text-danger" style="font-size: 30px;font-weight: bold;">
+              Projects</div>
+            <div class="col-12 d-flex justify-content-center   text-white" style="font-size: 20px; font-weight: bold;"
+              id="project_count">0</div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 my-5 "> 
+        <div class="row">
+
+          <div class="project_exp_client_bg" data-aos="zoom-in-right" data-aos-delay="1000">
+            <div class="col-12 d-flex justify-content-center  "><i class="fa fa-trophy text-white"
+                style="font-size: 60px;"></i></div>
+            <div class="col-12 d-flex justify-content-center   text-danger" style="font-size: 30px;font-weight: bold;">
+              Awards</div>
+            <div class="col-12 d-flex justify-content-center   text-white" style="font-size: 20px; font-weight: bold;"
+              id="award_count">0</div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 my-5 ">
+        <div class="row">
+
+          <div class="project_exp_client_bg" data-aos="zoom-in-right" data-aos-delay="1500">
+            <div class="col-12 d-flex justify-content-center  "><i class="fa fa-github text-white"
+                style="font-size: 60px;"></i></div>
+            <div class="col-12 d-flex justify-content-center   text-danger" style="font-size: 30px;font-weight: bold;">
+              Experience</div>
+            <div class="col-12 d-flex justify-content-center   text-white" style="font-size: 20px; font-weight: bold;"
+              id="experience_count">0</div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <!-- expereince end -->
+    </div>
+
+
+
+
+
+    <!-- pricing and plans  -->
+    <div id="plans"></div>
+
+
+
+    <div class="row d-flex justify-content-center" id="color_bg_div_1">
+
+
+
+      <div class="col-12 text-center mt-5">
+        <span class="div_header_txt_1 text-danger">CHOOSE YOUR PLAN</span>
+      </div>
+      <div class="col-12 text-center mt-4">
+        <span class="div_header_txt_2 text-white">PLAN PRICING</span>
+      </div>
+      <div class="col-12 text-center mt-3 div_header_txt_3">
+        <span class="text-white "> Our <span class="text-danger">Price Plan</span> is divided into <span
+            class="text-danger">3 Categories</span>.</span>
+      </div>
+      <div class="col-12 my-4 text-center" style="line-height: 3px;">
+        <span class="text-danger"> _______________________________</span><br>
+        <span class="text-danger"> _______________________________</span>
+      </div>
+
+
+
+      <div class="col-lg-4 d-flex justify-content-center my-5" >
+        <div class="card text-center  border-3 border-info" style="width: 20em;" id="card_plans" data-aos="zoom-in-down" >
+
+          <div class="card-body mt-5 text-white">
+            <span class="plan_type">Basic</span>
+            <br>
+            <span class="rate_plan">$50</span>
+            <span class="content d-flex  justify-content-center">
+              <table class="table py-5 mt-5 w-75 text-white-50">
+                <tbody>
+                  <tr>
+                    <td>5GB Storage</td>
+                  </tr>
+                  <tr>
+                    <td>20GB Monthly Bandwidth</td>
+                  </tr>
+                  <tr>
+                    <td>MySQL Databases</td>
+                  </tr>
+                  <tr>
+                    <td>100 Email Accounts</td>
+                  </tr>
+                  <tr>
+                    <td>10 Free Domains</td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+
+            <button type="button"
+              class="btn btn-outline-danger border-3 px-5 py-2 mt-5 mb-3 btn_purchase">Purchase</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4 d-flex justify-content-center my-5">
+        <div class="card text-center border-4 border-danger" style="width: 21em;" id="card_plans" data-aos="zoom-in-down" data-aos-delay="500">
+          <div class="card-header text-white" id="card_header">
+            Recommended
+          </div>
+          <div class="card-body text-white">
+            <span class="plan_type">Standard</span>
+            <br>
+            <span class="rate_plan">$80</span>
+            <span class="content d-flex  justify-content-center">
+              <table class="table py-5 mt-5 w-75 text-white-50">
+                <tbody>
+                  <tr>
+                    <td>35GB Storage</td>
+                  </tr>
+                  <tr>
+                    <td>65GB Monthly Bandwidth</td>
+                  </tr>
+                  <tr>
+                    <td>MySQL Databases</td>
+                  </tr>
+                  <tr>
+                    <td>500 Email Accounts</td>
+                  </tr>
+                  <tr>
+                    <td>50 Free Domains</td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+
+            <button type="button"
+              class="btn btn-outline-danger border-3 px-5 py-2 mt-5 mb-3 btn_purchase">Purchase</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 d-flex justify-content-center my-5">
+        <div class="card text-center  border-3 border-info" style="width: 20em;" id="card_plans" data-aos="zoom-in-down" data-aos-delay="1000">
+
+          <div class="card-body mt-5 text-white">
+            <span class="plan_type">Premium</span>
+            <br>
+            <span class="rate_plan">$200</span>
+            <span class="content d-flex  justify-content-center">
+              <table class="table py-5 mt-5 w-75 text-white-50">
+                <tbody>
+                  <tr>
+                    <td>50GB Storage</td>
+                  </tr>
+                  <tr>
+                    <td>50GB Monthly Bandwidth</td>
+                  </tr>
+                  <tr>
+                    <td>MySQL Databases</td>
+                  </tr>
+                  <tr>
+                    <td>1000 Email Accounts</td>
+                  </tr>
+                  <tr>
+                    <td>100 Free Domains</td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+
+            <button type="button"
+              class="btn btn-outline-danger border-3 px-5 py-2 mt-5 mb-3 btn_purchase">Purchase</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- plan price end -->
+
+    <!-- contact start -->
+    <div id="contact"></div>
+    <div class="row" id="color_bg_div_2">
+
+      <div class="col-12 text-center mt-5">
+        <span class="div_header_txt_1 text-danger">HAVE ANY QUERY ?</span>
+      </div>
+      <div class="col-12 text-center mt-4">
+        <span class="div_header_txt_2 text-white">CONTACT US</span>
+      </div>
+      <div class="col-12 text-center mt-3 div_header_txt_3">
+        <span class="text-white ">For <span class="text-danger">ANY QUERIES</span> or <span class="text-danger">ANY
+            PROBLEMS </span>you are faciing <span class="text-danger">CONTACT US </span>in the below mentioned
+          details.</span>
+      </div>
+      <div class="col-12 my-4 text-center" style="line-height: 3px;">
+        <span class="text-danger"> _______________________________</span><br>
+        <span class="text-danger"> _______________________________</span>
+      </div>
+
+      <div class="row mt-5 ">
+
+
+        <div class="col-lg-4 d-flex justify-content-center my-3">
+          <div class="div_bg_table_contact">
+            <table class="table_content">
+              <tr>
+                <td>
+                  <i class="fa fa-map-marker"></i>
+                </td>
+
+                <td>
+                  <span class="contact_table_header text-white mx-4">Locate Us</span>
+                  <br>
+                  <span class="text-white mx-4">Kolkata, West Bengal 700001</span>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 d-flex justify-content-center my-3">
+          <div class="div_bg_table_contact">
+            <table class="table_content">
+              <tr>
+                <td>
+                  <i class="fa fa-phone"></i>
+                </td>
+
+                <td>
+                  <span class="contact_table_header text-white mx-4">Give us a Call</span>
+                  <br>
+                  <span class="text-white mx-4">+91- 8679258234</span>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="col-lg-4 d-flex justify-content-center mt-3 mb-5">
+          <div class="div_bg_table_contact">
+            <table class="table_content">
+              <tr>
+                <td>
+                  <i class="fa fa-envelope"></i>
+                </td>
+
+                <td>
+                  <span class="contact_table_header text-white mx-4">Get in touch Online</span>
+                  <br>
+                  <span class="text-white mx-4">executor_freelance@gmail.com</span>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-12 text-center mt-4 mb-3">
+        <span class="div_header_txt_1 text-danger">FILL YOUR DETAILS </span>
+      </div>
+
+
+      <div class="row my-3">
+        <div class="col-lg-6 d-flex justify-content-center">
+          <input type="text" class="input_contact_1" placeholder=" Enter your name">
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+          <input type="text" class="input_contact_1" placeholder="Enter Email">
+        </div>
+
+
+        <div class="col-lg-12 d-flex justify-content-center my-4">
+          <input type="text" class="input_contact_2" placeholder="Your Queries or Problems">
+        </div>
+
+        <div class="col-lg-12 d-flex justify-content-center mb-4">
+          <input type="text" class="input_contact_2" placeholder="Your Message" style="height:12rem;">
+        </div>
+
+        <div class="col-lg-4 d-flex justify-content-start mb-4 ps-5">
+          <button type="button" class="btn btn-danger w-50 ms-2"
+            style="height: 3rem;border-radius: 20px; font-weight: bold;border: #EF5350 3px solid;">Send Message</button>
+        </div>
+
+
+      </div>
+
+      <!-- contact end -->
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col-12 bg-dark d-flex justify-content-center text-light"
+        style="height: 6rem;padding-top: 2.5rem;font-weight: bold;letter-spacing: 1px;word-spacing: 2px;">
+        The Contents on this page are Subjected to Copyright
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- container end -->
+  </div>
+
+
+  <script>
+
+
+    AOS.init();
+
+
+
+    var typing = new Typed(".details", {
+      strings: ["Web Designer", "Web Developer", "Data Entry Personel", "Hardware & Networking", "Freelancer", "Software Support"],
+      typeSpeed: 100,
+      backSpeed: 40,
+      loop: true,
+    });
+
+    // ---------------------------------------------------------------------------------------------------------------------------------------
+
+
+    var typing = new Typed(".name", {
+      strings: ["I am Utsab Sarkar", "I am Saptarshi Banerjee", "I am Ankit Dey", "I am Priyodarshan Ghosh",
+        "I am Hriju Das", "I am Shalini Pal", "I am Subhomoy Bhowmik", "I am Rohan Brahmachari"],
+      typeSpeed: 90,
+      backSpeed: 10,
+      loop: true,
+    });
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+
+  </script>
+  </script>
+</body>
+
+</html>

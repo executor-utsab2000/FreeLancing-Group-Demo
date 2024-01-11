@@ -1,0 +1,151 @@
+#image_background_projects_1{
+    height: 25rem;
+    width: 15rem;
+    background-image: url('projects/web_1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+}
+#image_background_projects_2{
+    height: 10rem;
+    width: 15rem;
+    background-image: url('projects/web_2.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+#image_background_projects_3{
+    height: 10rem;
+    width: 15rem;
+    background-image: url('projects/web_3.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+#image_background_projects_4{
+    height: 10rem;
+    width: 15rem;
+    background-image: url('projects/web_4.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+#image_background_projects_5{
+    height: 10rem;
+    width: 15rem;
+    background-image: url('projects/web_5.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+#image_background_projects_6{
+    height: 25rem;
+    width: 15rem;
+    background-image: url('projects/web_6.jpg');
+    background-size: cover;
+    background-position: center;
+
+    }
+
+/* --------------------------------------------------------------- */
+.inner_div_projects_hover_1{
+    background: black ;
+    position: absolute;
+    background-size: cover;
+    height: 25rem;
+    width: 15rem;
+    opacity: .7;
+    color: white;
+     font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+    animation: inner_div_projects_hover_1_zoom 0.6s
+    }
+      
+        
+      @keyframes inner_div_projects_hover_1_zoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+      }
+      
+      
+      
+ 
+
+.inner_div_projects_hover_2{
+    background: black ;
+    position: absolute;
+    background-size: cover;
+    height: 10rem;
+    width: 15rem;
+    opacity: .7;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+    animation: inner_div_projects_hover_2_zoom 0.6s
+    }
+      
+        
+      @keyframes inner_div_projects_hover_2_zoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+      }
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+
+/* hover effects */
+#image_background_projects_1:hover #on_hover_display_big_1{
+    display: block;
+    display: grid;
+    place-items: center;
+ }
+
+
+
+#image_background_projects_2:hover #on_hover_display_1{
+    display: block;
+    display: grid;
+    place-items: center;
+}
+
+
+
+#image_background_projects_3:hover #on_hover_display_2{
+    display: block;
+    display: grid;
+    place-items: center;
+}
+
+
+
+#image_background_projects_4:hover #on_hover_display_3{
+    display: block;
+    display: grid;
+    place-items: center;
+}
+
+
+
+#image_background_projects_5:hover #on_hover_display_4{
+    display: block;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+
+#image_background_projects_6:hover #on_hover_display_big_2{
+    display: block;
+}
+
+
+
+

@@ -1,0 +1,17 @@
+
+
+
+.div_header_txt_1{
+    font-weight: bold;
+  }
+  .div_header_txt_2{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Bodoni MT Black;
+    letter-spacing: 2px;
+  }
+  .div_header_txt_3{
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }

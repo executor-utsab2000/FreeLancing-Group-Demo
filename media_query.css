@@ -1,0 +1,87 @@
+/* navbar  */
+@media screen and (min-width: 992px) {
+    #nav_bar ul {
+       margin-left:40%;
+     }
+   }
+
+
+
+
+
+/* logo and name in  nav bar switch */
+#brand_logo {
+  display: none; /* Hide the logo by default */
+}
+#brand_name {
+  display: block; /* Show the text by default */
+      } 
+/* ........................ */
+@media (max-width: 850px) {
+   #brand_logo {
+    display: block;
+  }
+  #brand_name {
+    display: none;
+  }
+}
+
+
+
+  /* padding cards */
+  @media screen and (min-width: 992px) {
+    #content_row_about_cards{
+    padding-left:4%;
+     }
+   }
+
+
+   /* social media */
+   @media screen and (min-width: 992px) {
+    #social_media {
+       margin-top:5%;
+       padding-left: 5%;
+     }
+   }
+
+   @media screen and (max-width: 556px) {
+    #social_media {
+       margin-top:2%;
+       margin-left:20%;
+     }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* logo and name in  nav bar switch */
+.collapsed_screen_progress_bar {
+display: none;
+}
+
+.expanded_screen_progress_bar {
+display: block; /* Show the text by default */
+    } 
+
+    
+/* ........................ */
+@media (max-width: 992px) {
+ .collapsed_screen_progress_bar {
+  display: block;
+  
+}
+.expanded_screen_progress_bar {
+
+display: none;
+}
+}

@@ -1,0 +1,476 @@
+/* general div two colours-  */
+#color_bg_div_1{
+  background-color: #003399   
+}
+/* deep  blue*/
+#color_bg_div_2{
+  background-color: #000066;
+}
+
+
+
+
+/* rocket */
+#rocket_scroll_up a{
+  position: fixed !important;
+  top: 90%;
+   z-index: 2;
+  font-size: 30px;
+  transform: rotate(-45deg);
+   font-size: 50px;
+   color: white;
+  }
+  #rocket{
+    
+  display: none;
+}
+
+
+#rocket_scroll_up a:hover{
+color: #F44336;
+}
+/* ------------------------------------------------------------------------ */
+/* modal styling */
+#login_form label{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#login_form input{
+  font-size: 12px;
+  background-color: transparent;
+  border-bottom: #000066 3px solid;
+}
+#register_form label{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#register_form input{
+  font-size: 12px;
+  background-color: transparent;
+  border-bottom: #000066 3px solid;
+}
+
+.form-check-input{
+  border: #000066 3px solid;
+  background-color: white;
+}
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* header bar/ navbar */
+#header_bar_top{
+  background-color: #003399;
+ 
+}
+
+#brand_name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+#nav_bar_bg{
+    height: auto;
+    background-color: #000066;
+    border-bottom: #1976D2 3px solid  ;
+}
+
+#nav_bar a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+
+#nav_bar a:hover{
+    color: #F44336;
+    border-bottom: #FDD835 3px solid;
+    border-radius: 10px;
+}
+
+
+#hamburger:hover{
+transition: .5s;
+transform: rotate(90deg);
+}
+
+
+
+  
+
+
+/* progress bar */
+.progress-container {
+  background-color: #E3F2FD;
+  height: 6px;
+  width: 100%;
+}
+
+.progress-bar {
+  background-color: #FDD835;
+  height: 6px;
+  width: 0px;
+  
+}
+
+
+
+
+
+
+
+  
+/* .----------------------------------------------------------------------------- */
+   
+#div_bg{
+    background-color: #010182;
+    height: auto;
+}
+
+
+ 
+   #social_icons{
+    margin-right: 2%;
+  }
+  
+
+  /* name and details */
+  
+  #hi{
+    color: white;
+      font-size: 30px;
+      padding: 15px;
+      font-family: sans-serif;
+      font-weight: bold;
+      padding-left: 8%;
+      
+  }
+  
+  .name{
+     color: white;
+      font-size: 30px;
+      padding: 15px;
+      font-family: sans-serif;
+      border-right: 2px solid white;
+      font-weight: bold;
+      margin-left: 5%;
+  }
+  
+  .details{
+      border-right: 2px solid red;
+      font-size: 40px;
+      font-family: sans-serif;
+      color: rgb(255, 30, 0);
+      font-weight: bold;
+      margin-left: 6%;
+  }
+
+
+  #image_pic{    
+      height: 20rem;
+      width: 20rem;
+      transition: .5s;
+      animation: image_appear 0.4s;
+      border-radius: 50%;
+      border: 4px blue solid;
+      margin-top: 12%;
+      margin-bottom: 5%;
+  }
+  @keyframes image_appear{
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+  }
+  
+  #btn_works{
+    border-radius: 20px;
+    height: auto;
+    width: 25%;
+  }
+
+  #btn_works a:hover{
+  font-weight: bold;
+  color: #E3F2FD !important;
+  }
+
+
+
+/* .----------------------------------------------------------------------------- */
+
+  #below_div{
+    height: 30px;
+    background-color:#303F9F;
+}
+
+/* .----------------------------------------------------------------------------- */
+
+
+
+
+/* services design */
+
+
+#card_services_content{
+  border-radius: 20px;
+}
+
+#card_services_content:hover{
+  background-color: #EF5350 !important;
+  border: #C62828 3px solid;
+  }
+
+  #card_services_content:hover #fa_icons{
+    transition: .6s;
+    transform: rotateY(360deg);
+    }
+  
+    
+
+ .card-title{
+
+  text-decoration: underline;
+  text-decoration-style: double;
+ }
+
+ 
+
+ 
+
+
+/* .----------------------------------------------------------------------------- */
+
+
+
+
+
+ /* about */
+
+#card_about_content{
+  border-radius: 20px;
+}
+
+
+
+#card_about_content img{
+  height: 8rem;
+  width: 8rem ;
+  border:3px #546E7A solid ;
+}
+
+#about_img_txt_separator{
+  border: 3px #1976D2 solid;
+  border-radius: 20px;
+}
+
+.card_about_header{
+  font-weight: bold;
+  word-spacing: 3px;
+}
+
+
+
+/* card hover about */
+#card_about_content:hover{
+  background-color: #0033CC !important;
+}
+
+#card_about_content:hover img{
+  transition: .5s;
+  transform: scale(1.1);
+}
+
+
+/* .----------------------------------------------------------------------------- */
+
+/* skills */
+
+
+
+#txt_1_skills{
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 20px;
+}
+#txt_2_skills{
+ font-size: 60px;
+ font-weight: bold; 
+ letter-spacing: 1px;
+ word-spacing: 2px;
+}
+#txt_3_skills{
+  font-weight: bold;
+  font-size: 12px;
+}
+.skill_name{
+  font-weight: bold;
+}
+
+
+.progress-bar-striped{
+  font-weight: bold;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* projects */
+#project_bg{
+  background-color:#000066 ;
+}
+
+.project_pics{
+  border: 3px #003399 solid;
+  border-radius: 10px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+/* experience_clients bg styling */
+
+.project_exp_client_bg{
+  background-color: #263238;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  transition: .6s;
+}
+.project_exp_client_bg:hover{
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); 
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
+/* plans */
+#card_plans{
+  background-color: #3F51B5;
+   border-radius: 20px;
+   transition: .6s;
+}
+#card_plans:hover{
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  font-weight: bold;
+  transform: scale(1.1);
+
+}
+
+#card_header{
+  background-color: #F44336 !important;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 60%;
+  margin-left: 20%;
+  font-weight: bold;
+
+}
+
+.rate_plan{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.plan_type{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+.btn_purchase{
+  font-weight: bold;
+  color: #FFEB3B;
+  background-color: #283593;
+  border-radius: 25px;
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+.contact_table_header{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.div_bg_table_contact{
+  background-color: #003399;
+  border: #42A5F5 3 px solid;
+  height: 8rem;
+  width: 25rem;
+  border-radius: 20px;
+  transition: .5s;
+  }
+
+  .div_bg_table_contact:hover{
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    transform: scale(1.1);
+    }
+
+    
+  .table_content{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    place-content: center;
+    margin-top: 11%;
+  
+    }
+
+
+
+  .table_content i{
+    font-size: 50px;
+    color: red;
+  }
+
+  .input_contact_1{
+    height: 4rem;
+    width: 38rem;
+    border-radius: 20px;
+    background-color: #003399;
+    outline: none;
+    border: none;
+    color: yellow;
+    font-weight: bold;
+  }
+  .input_contact_1::placeholder{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    word-spacing: 2px;
+    padding-left: 2%;
+    
+  }
+
+  .input_contact_2{
+    height: 4rem;
+    width: 85rem;
+    border-radius: 20px;
+    background-color: #003399;
+    outline: none;
+    border: none;
+    color: yellow;
+    font-weight: bold;
+  }
+  .input_contact_2::placeholder{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    word-spacing: 2px;
+    padding-left: 2%;
+    
+  }
